@@ -1,0 +1,45 @@
+/*-------------------- 
+ Basic Styles
+---------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f1ff;
+}
+
+.container {
+    width: 870px;
+    max-width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* -----------
+ Player Area
+-------------- */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player-thumb {
+    height: 100px;
+    width: 100px;
+}
+
+.player-name {
+    margin-left: 20px;
+}
